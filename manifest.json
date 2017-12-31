@@ -1,0 +1,15 @@
+{ 
+    "manifest_version": 2,
+
+    "name": "SoundCloud Creeper",
+    "content_security_policy": "default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;",
+    "background": {
+        "page": "background.html"
+    },
+    "version": "1.0",
+    "permissions": [
+        "notifications",
+        "<all_urls>",
+        "storage"
+    ]
+}
